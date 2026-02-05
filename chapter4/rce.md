@@ -1,4 +1,5 @@
 # Setting up the environment
+Click the "start container" button and wait 2 minutes. When you get a public IP address use nmap to scan for open ports & services.
 
 # Remote code execution
 You have access to a website that allows users to check whether other websites are down or if the issue is only on their own device. However, there may be more to this functionality than meets the eye. Explore the website's functionality and identify the vulnerability that allows you to execute remote commands on the server.
