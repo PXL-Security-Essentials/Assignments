@@ -7,3 +7,4 @@
 # Easy challenges
 
 # Medium challenges
+<script>alert(1)</script>
