@@ -19,7 +19,7 @@ Navigate to the challenge IP after pressing the start challenge button. You will
 1. Open DevTools (`F12`) and go to the **Elements** tab.
 2. Inspect the login form.
 3. Find the hidden input field that controls the access level.
-4. Change its value so that you log in as an administrator.
+4. Change its value so that you log in as an admin.
 5. Submit the form. The flag will be displayed on the page.
 
 > **Tip:** Right-click the Sign In button and choose *Inspect* to quickly locate the surrounding form fields.
