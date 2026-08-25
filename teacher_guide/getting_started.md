@@ -9,3 +9,10 @@ C) Au
 D) Ag
 ANSWER: C
 ~
+
+and now
+
+~QUESTION
+Q: What is the name of the current US president?
+ANSWER: Donald Trump
+~
