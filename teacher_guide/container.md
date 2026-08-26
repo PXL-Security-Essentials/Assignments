@@ -111,3 +111,5 @@ To finish up, add the new challenge to your challenge pool and test it using the
 ## AI assisted challenge creation
 
 Want an AI agent to assist you? You can use [this file](https://backoffice.seclabs.be/claude.md) as context for AI agents to help you build challenges that use the flag injection system.
+
+Good to know: every container challenge automatically gets the environment variables `CHALLENGE_NAME` and `TEAM_NAME` (= account name) set so feel free to use these in your containers!
