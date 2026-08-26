@@ -42,14 +42,13 @@ CMD ["nginx", "-g", "daemon off;"]
 
 Note that this uses a base Nginx image, sets a `FLAG1` environment variable, and runs an entrypoint script.
 
-The environment variables in the Dockerfile (`FLAG1` and `FLAG2`) are placeholders. The SecLabs platform will override these with unique values for each team when containers are started.
+The environment variables in the Dockerfile (`FLAG1`) are placeholders. The SecLabs platform will override these with unique values for each team when containers are started.
 
 Let's create this `entrypoint.sh` file in our `seclabs` folder:
 
 ```bash
 #!/bin/bash
-sed -i "s/{FLAG1}/${FLAG1}/g" /usr/share/nginx/html/robots.txt
-sed -i "s/{FLAG2}/${FLAG2}/g" /usr/share/nginx/html/administrator.html
+sed -i "s/{FLAG1}/${FLAG1}/g" /usr/share/nginx/html/index.html
 exec "$@"
 ```
 
@@ -65,6 +64,11 @@ You can test the container with the following command. It should display the `PX
 
 ```bash
 docker run -p 80:80 username/helloseclabs
+```
+
+When you are certain this works, you can push it to dockerhub using the command below:
+```bash
+docker push username/helloseclabs
 ```
 
 ## Creating the challenge
