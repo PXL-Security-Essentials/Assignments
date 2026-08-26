@@ -18,7 +18,7 @@ Follow these instructions:
 - Make the repository public. We'll talk about private repositories later on.
 
 Now that we have our GitHub repository, we can return to the Create challenge page and fill in the following values:
-- Challenge name: yourName-first-challenge
+- Challenge name: yourName first challenge
 - GitHub repository: your unique repository identifier following the structure `<username>/<repo>`. For me, this was `d-ries/hello-seclabs`.
 - README path: You can leave this set to `README.md` unless the path to your Markdown file is different.
 - Challenge type: instructions. We'll look into the other options later.
@@ -58,6 +58,7 @@ The `file download` challenge type isn't much different from the `instructions` 
 
 Now navigate to your `README.md` file on GitHub and add the following section to the bottom of your instructions:
 ```
+## File analysis
 Download the file linked at the top of this assignment and open it. Then answer the question below:
 
 ~QUIZ
@@ -73,3 +74,6 @@ ANSWER: C
 Note that these files can't contain dynamic flags when we do it this way. A more advanced option would be to create a container challenge that runs a web server to serve the file with a dynamic flag injected, but more on this topic later.
 
 Changes to your markdown files might take a while to process. Browsers cache the retrieved content from Github which might result in a slight delay before seeing the updated assignemnt instructions.
+
+# Private repositories for assignment instructions
+By default markdown files on Github have to be public, unless the repositories are made under the `pxl-security-essentials` Github organisation. Any repositories containing mardown files that are present there can be private. Our platform has access to any repository in this organisation. If you do not have access to this organisation, please contact dries.swinnen@pxl.be.
