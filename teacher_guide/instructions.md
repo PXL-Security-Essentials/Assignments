@@ -71,3 +71,5 @@ ANSWER: C
 ```
 
 Note that these files can't contain dynamic flags when we do it this way. A more advanced option would be to create a container challenge that runs a web server to serve the file with a dynamic flag injected, but more on this topic later.
+
+Changes to your markdown files might take a while to process. Browsers cache the retrieved content from Github which might result in a slight delay before seeing the updated assignemnt instructions.
