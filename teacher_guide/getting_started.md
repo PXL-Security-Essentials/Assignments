@@ -11,4 +11,6 @@ You'll notice you enter our administration area that contains 4 sections:
 
 Let's start by creating a new personal student account under the Accounts tab. For the username use your business e-mail address (eg. dries.swinnen@pxl.be) and set a password. These passwords can be changed later on by students or educators.
 
+Lets also create a new group under the Groups tab. For the name use `<yourname> test group` and assign your Account to this group.
+
 Try logging in to the [student portal](https://labs.seclabs.be/) with that new account. You'll notice that you don't see any challenge pools yet. We will fix that in the next section of this tutorial.
