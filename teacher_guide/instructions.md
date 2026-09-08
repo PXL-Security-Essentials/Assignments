@@ -30,7 +30,7 @@ Then click the `Create challenge` button.
 
 You've successfully created your first challenge, but it is not yet accessible to students. Navigate to the `Challenge pool` section and click the `Create pool` button. For the name, use `tutorial <yourname>` and make sure you select the challenge you just created.
 
-Your challenge pool will now be visible in the list on our Challenge pool page, but it has not yet been assigned to students. Under the `Actions` tab, click the Assign students icon and assign your personal student account to the pool. After refreshing the student portal, you should now be able to see the challenge pool and the challenge you just created!
+Your challenge pool will now be visible in the list on our Challenge pool page, but it has not yet been assigned to students. Under the `Actions` tab, click the Assign groups icon and assign your personal student group to the pool. After refreshing the student portal, you should now be able to see the challenge pool and the challenge you just created!
 
 Want to add some dynamic quizzes to your challenges? Use the syntax below in your Markdown file. These will render as multiple-choice or open-ended questions in SecLabs:
 ```
