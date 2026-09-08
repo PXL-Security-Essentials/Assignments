@@ -3,8 +3,9 @@ Start by navigating to https://backoffice.seclabs.be and log in using your Gmail
 
 You'll notice you enter our administration area that contains 4 sections:
 - Accounts: This page is dedicated to managing student and group accounts that can access the student area. Feel free to create as many accounts for individuals or groups as you like. There are bulk import features to help speed up the process.
+- Groups: This is a page where we can bundle Accounts into specific sets of groups to link to Challenge Pools later.
 - Challenges: This is the page where we manage challenges that students can complete. There are three types of challenges, which we will discuss later in this tutorial. Challenges can have unique flags that we can use to track progress, but more on this topic later.
-- Challenge pools: On this page, we create pools of challenges, comparable to TryHackMe's learning paths. A pool can contain one or more challenges and will be bundled in the student view. Before a student can access a challenge or challenge pool, you will have to assign them to that pool here as well.
+- Challenge pools: On this page, we create pools of challenges, comparable to TryHackMe's learning paths. A pool can contain one or more challenges and will be bundled in the student view. Before a student can access a challenge or challenge pool, you will have to assign them a group and then assign that group to a pool here as well.
 - Analytics: This shows some general analytics for our platform, but it is out of scope for this tutorial.
 
 
